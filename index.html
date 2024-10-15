@@ -1,54 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Каталог</title>
-</head>
-<body>
-    <div>
-        <h1>Каталог меблів</h1>
-        <ol>
-            <li>Дивани</li>
-            <li>Столи </li>
-            <li>Стільці</li>
-            <li>Люстри</li>
-            <li>Шкафи</li>
-            <li>Ліжка</li>
-        </ol>
-        <table>
-            <tr>
-                <td>Дивани</td>
-                <td>Столи</td>
-                <td>Стільці</td>
-                <td>Люстри</td>
-                <td>Шкафи</td>
-                <td>Ліжка</td>
-            </tr>
-            <tr>
-                <td><img src="./imj/sofa.jpg" alt=""></td>
-                <td><img src="./imj/table.jpg" alt=""></td>
-                <td><img src="./imj/chair.jpg" alt=""></td>
-                <td><img src="./imj/lamb.jpg" alt=""></td>
-                <td><img src="./imj/Shkaf.jpg" alt=""></td>
-                <td><img src="./imj/bed.webp" alt=""></td>
-            </tr>
+<html>
+    <head>
+        <title>
+             Меню кафе
+        </title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body style="font-size: x-large;" >
+        <div class="verhniy-kolontytul">
+            <h1 style="position: relative;text-align:center;color: rgb(24, 0, 122) "> Кафе "Invisibility"
+            </h1>
             <hr>
-        </table>
-        <style>
-            img{
-                width: 150px;
-                height: 100px;
-            }
-            table{
-                border-style:dotted;
-                padding: 5px;
-                margin: 5px;
-                border-color: black;
-            }
-        </style>
-        <hr>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/YB_RRhM3zjU?si=ZTdJui1yGskIfAD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-</body>
+        </div>
+        </div>
+        <div style="background-color:brown">
+            <nav>
+                <button style="margin: 5px;"><a href="#promo">
+                    Наше промо
+                </a>   
+                </button>
+                <button style="margin: 5px;"><a href="map.html">
+                    Ми на картах
+                </a>   
+                </button>
+                <button style="margin: 5px;"><a href="sushi.html">
+                    Наші суші
+                </a>   
+                </button>
+            </nav>
+        </div>
+        <div style="background-color: rgba(115, 56, 0, 0.719)">
+            <h2 style="position: relative;text-align: center;color: rgb(8, 1, 72);">
+                Наше меню
+            </h2>
+            <hr>
+            <br>
+            <table style="position: relative;text-align: center;margin: auto;">
+                <tr>
+                    <td></td><td></td><td></td><td style=" font-weight: bold;font-size: 35px;  ">
+                    Гарячі напої
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td><td></td><td></td>
+                    <td class="americano">Амерікано
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td><td></td><td></td><td><img src="media/1.jpg" width="500px" height="400px"></a>
+                    </td><td></td>
+                </tr>
+                <tr>
+                    <td style="font: size 14px;">Капучино</td><td></td><td></td><td></td><td style="font-size:14px; ">Сік</td>
+                </tr>
+                <tr>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td> <img src="media/2.jpg" width="500px" height="350px"></td><td></td><td></td><td>
+                    </td><td><img src="media/3.jpg" width="400px"></a></td>
+                </tr>
+                <tr>
+                    <td></td><td></td><td></td><td></td><td></td>
+                </tr>
+            </table>
+            <h3 style="position: relative;text-align: center;">
+                Гарніри
+            </h3>
+            <ol style="position: relative;text-align: center;margin: auto;">
+            <li>Картопля фрі</li>
+            <li><img src="media/4.jpg" alt="poptato" width="200px" height="125px"></li>
+            <li>Нагетси</li>
+            <li><img src="media/5.jpg" alt="poptato" width="200px" height="125px"></li>
+            <li>Бургери</li>
+            <li><img src="media/6.jpg" alt="poptato" width="200px" height="125px"></li>
+            <li>Курочки</li>
+            <li><img src="media/7.jpg" alt="poptato" width="200px" height="125px"></li>
+            </ol>
+        </div>
+        <footer style="background-color: rgb(82, 40, 0)">
+            <div><a name="promo"></a>
+                <h4 style="position: relative;text-align: center;color: rgb(8, 1, 72);">
+                    Наше промо
+                </h4>
+                <video width="320px" height="240px" controls style="position: relative;;margin: auto;  display: flex;align-items: center;">
+                    <source src="media/32f3c797.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </footer>
+    </body>
 </html>
